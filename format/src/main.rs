@@ -44,4 +44,11 @@ fn main() {
     let number:f64 = 1.0;
     let width:usize = 5;
     println!("{number:0>width$}"); 
+
+    //Add a println! macro call that prints: Pi is roughly 3.142 by controlling the number of decimal places shown. 
+    //For the purposes of this exercise, use let pi = 3.141592 as an estimate for pi. 
+    //(Hint: you may need to check the std::fmt documentation for setting the number of decimals to display)
+
+    let pi:f64 = 3.141592;
+    println!("pi is roughly {:.3}",pi);
 }
